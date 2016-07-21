@@ -1,0 +1,44 @@
+.inputComponent {
+  text-align: center;
+}
+
+.tickerInput {
+  width: 35%;
+  border: 2px solid #9E9D9D;
+  padding: 4px 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: normal;
+  font-weight: normal;
+}
+
+.tickerInput:focus {
+  -moz-box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  -webkit-box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  -o-box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  outline-color: #c5dc6f;
+}
+
+.submitButton {
+  border: none;
+  background: #81cf4e;
+  font-family: "arial";
+  font-weight: bold;
+  color: #eff2f3;
+  width: 112px;
+  width: 7rem;
+  height: 35px;
+  height: 2.2rem;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.submitButton:hover, .submitButton:active, .submitButton:focus {
+  -moz-box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  -webkit-box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  -o-box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  box-shadow: 0px 0px 0.5rem 0px #c5dc6f;
+  outline-color: #c5dc6f;
+}
